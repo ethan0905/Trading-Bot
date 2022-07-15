@@ -1,4 +1,4 @@
-# Trading Bot v1.0
+# Trading Bot v1.0 📊
 
 A simple trading Bot, that you can use for free on https://bitcoinhero.me/.  
 
