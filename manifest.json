@@ -1,7 +1,7 @@
 {
-    "name": "Trading Bot",
+    "name": "C2H6 - Trading Bot",
     "version": "1.0",
-    "description": "A simple trading bot, by Ethan.",
+    "description": "A simple trading bot, by Ethan. Only for test purposes.",
     "icons": {
         "500": "trading_candle.png"
     },
@@ -11,7 +11,8 @@
         "persistent": true
     },
     "page_action": {
-        "default_popup": "popup.html"
+        "default_popup": "popup.html",
+        "500": "trading_candle.png"
     },
     "options_page": "options.html",
     "manifest_version": 2
