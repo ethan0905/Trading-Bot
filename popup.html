@@ -3,7 +3,32 @@
     <head>
       <style>
       body {
-        width: 500px;
+        width: 250px;
+        height: 200px;
+      }
+      body #status {
+        padding-bottom: 10px;
+      }
+      body #info {
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+        align-items: column;
+        height: auto;
+        /* outline: 2px solid black; */
+      }
+      /* body #info span {
+        background-color: aquamarine;
+      }
+      body #info span input{
+        background-color: pink;
+      } */
+      #div-buttons{
+        padding-top: 10px;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
       }
       button {
         padding: 5px 10px 5px 10px;
@@ -12,10 +37,16 @@
       </style>
     </head>
     <body>
-      <div>
+      <div id="status">
         <span id="status-label">Click start to begin</span>
       </div>
-      <div>
+      <div id="info">
+        <span class="elem-flex">Enter postal-code here:</span>
+        <input type="text" id="postal-code" value="" size="15"></input>
+        <span class="elem-flex">Enter CCV here:</span>
+        <input type="text" id="ccv-code" value="" size="15"></input>
+      </div>
+      <div id="div-buttons">
           <button id="start-button">Start</button>
           <button id="stop-button">Stop</button>
       </div>

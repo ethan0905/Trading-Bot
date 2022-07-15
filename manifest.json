@@ -1,7 +1,10 @@
 {
-    "name": "Trading Bot Tutorial",
+    "name": "Trading Bot",
     "version": "1.0",
-    "description": "An example of a simple trading bot.",
+    "description": "A simple trading bot, by Ethan.",
+    "icons": {
+        "500": "trading_candle.png"
+    },
     "permissions": ["activeTab", "declarativeContent", "storage"],
     "background": {
         "scripts": ["background.js"],
